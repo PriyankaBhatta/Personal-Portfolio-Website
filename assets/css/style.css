@@ -544,7 +544,7 @@ img{
     justify-content: center;
     padding: 0 1rem;
     z-index: var(--z-modal);
-    opacity: 0;
+    opacity: 1;
     visibility: hidden;
     transition: .3s;
 }
@@ -572,6 +572,7 @@ img{
     font-size: 1.5rem;
     color: var(--first-color);
     cursor: pointer;
+    
 }
 .services__modal-icon{
     color: var(--first-color);
