@@ -9,7 +9,7 @@
 
 
         <!------------------------------SWIPER CSS--------------------------------->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/cdn.jsdelivr.net_npm_swiper@6.5.8_swiper-bundle.min.css">
 
         <!------------------------------CSS---------------------------------------->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -618,11 +618,11 @@
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent work</span>
 
-                <div class="portfolio__container container">
-                    <div>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
                         <!------------------PORTFOLIO  1--------------------->
-                        <div class="portfolio__content grid">
-                            <img src="assests/img/portfolio1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio-1.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">EasySummary</h3>
@@ -632,11 +632,49 @@
                                         Demo
                                         <i class="uil uil-arrow-right button__icon"></i>
                                      </a>
+                            </div>
+                        </div>
 
+                        <!------------------PORTFOLIO  2--------------------->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio-2.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Book Recommender System</h3>
+                                <p class="portfolio__description">This project gives book recommendation to users based on collaborative fltering based approach. </p>
+                                     <a href="#" class="button button--flex button--small portfolio__button">
+                                        Demo
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                     </a>
+                            </div>
+                        </div>
+
+                        <!------------------PORTFOLIO  3--------------------->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio-3.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Email/SMS Spam Classifier</h3>
+                                <p class="portfolio__description">This project is an SMS/Email classifier that determines whether a given message is spam or not spam.</p>
+                                     <a href="#" class="button button--flex button--small portfolio__button">
+                                        Demo
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                     </a>
                             </div>
                         </div>
 
                     </div>
+
+                    <!--add arrows-->
+                    <!--<div class="swiper-buuton-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-buuton-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>-->
+
+                    <!--add pagination-->
+                    <div class="swiper-pagination"></div>
                 </div>
              </section>
 
@@ -647,7 +685,7 @@
         <!------------------------------SCROLL TOP--------------------------------->
 
         <!------------------------------SWIPER JS---------------------------------->
-        <script src=""></script>
+        <script src="assets/js/cdn.jsdelivr.net_npm_swiper@6.5.8_swiper-bundle.min.js"></script>
 
         <!------------------------------MAIN JS------------------------------------>
         <script src="assets/js/main.js"></script>
